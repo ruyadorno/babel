@@ -35,8 +35,8 @@
     "eslint/*",
     "packages/*"
   ],
-  "npmClient": "yarn",
+  "npmClient": "arborist",
   "npmClientArgs": [
-    "--no-lockfile"
+    "."
   ]
 }

@@ -255,7 +255,7 @@ publish-eslint:
 bootstrap-only: lerna-bootstrap
 
 yarn-install: clean-all
-	yarn --ignore-engines
+	arborist .
 
 lerna-bootstrap: yarn-install
 # todo: remove `-- -- --ignore-engines` in Babel 8
